@@ -1,21 +1,25 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white border-bottom">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#">
+        <Link className="navbar-brand fw-bold" to="/">
           PetQR
-        </a>
+        </Link>
 
-        <div className="d-flex gap-3">
-          <a className="nav-link" href="#">
+        <div className="d-flex gap-3 align-items-center">
+          <Link className="nav-link" to="/">
             Inicio
-          </a>
+          </Link>
 
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/mascotas">
             Mascotas
-          </a>
+          </Link>
 
-          <button className="btn btn-dark">Iniciar sesión</button>
+          <Link className="btn btn-dark" to="/login">
+            Login
+          </Link>
         </div>
       </div>
     </nav>
