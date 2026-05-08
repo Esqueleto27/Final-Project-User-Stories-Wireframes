@@ -8,14 +8,14 @@ function Navbar() {
 
         <div className="d-flex gap-3">
           <a className="nav-link" href="#">
-            Home
+            Inicio
           </a>
 
           <a className="nav-link" href="#">
-            Pets
+            Mascotas
           </a>
 
-          <button className="btn btn-dark">Login</button>
+          <button className="btn btn-dark">Iniciar sesión</button>
         </div>
       </div>
     </nav>
