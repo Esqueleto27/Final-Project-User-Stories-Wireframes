@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <section className="py-5">
@@ -12,10 +14,12 @@ function Hero() {
           Crea un perfil público para tu mascota y ayuda a que las personas la
           identifiquen al instante usando tecnología QR.
         </p>
-
-        <button className="btn btn-dark btn-lg px-4">
+        <Link to="/register">
+           <button className="btn btn-dark btn-lg px-4">
           Registra tu mascota
         </button>
+        </Link>
+     
       </div>
     </section>
   );

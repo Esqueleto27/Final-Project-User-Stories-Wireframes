@@ -14,6 +14,7 @@ function ComoFunciona() {
               </p>
             </div>
           </div>
+          
 
           <div className="col-md-4">
             <div className="p-4 bg-white rounded shadow-sm h-100">

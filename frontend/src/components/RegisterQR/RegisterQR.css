@@ -1,0 +1,19 @@
+.container-register {
+    width: 700px;
+    padding: 30px;
+    margin: 10% auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    width: 200px;
+    border-radius: none;
+    padding: 07px;
+}
+
+h4{
+    text-align: center;
+    margin-top: 3%;
+}
